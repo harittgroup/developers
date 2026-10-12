@@ -12,5 +12,5 @@ chk('name',v('name').length>1);chk('email',/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('
 if(!ok)return;
 var svcs=[].map.call(f.querySelectorAll('input[name=svc]:checked'),function(x){return x.value}).join(', ')||'Not sure yet';
 var body='Name: '+v('name')+'\nEmail: '+v('email')+'\nCompany: '+(v('company')||'-')+'\nWebsite: '+(v('site')||'-')+'\nServices: '+svcs+'\nBudget: '+v('budget')+'\nTimeline: '+v('timeline')+'\n\nAbout the project:\n'+v('desc');
-location.href='mailto:hello@haritt.com?subject='+encodeURIComponent('Project enquiry: '+(v('company')||v('name')))+'&body='+encodeURIComponent(body);
+location.href='mailto:developers@haritt.com?subject='+encodeURIComponent('Project enquiry: '+(v('company')||v('name')))+'&body='+encodeURIComponent(body);
 document.getElementById('ok').style.display='block'});})();
