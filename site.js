@@ -10,7 +10,7 @@ function chk(id,cond){var w=f.querySelector('[data-f='+id+']');w.classList.toggl
 var v=function(n){return (f.elements[n].value||'').trim()};
 chk('name',v('name').length>1);chk('email',/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v('email')));chk('desc',v('desc').length>9);chk('consent',f.elements.consent.checked);
 if(!ok)return;
-var svcs=[].map.call(f.querySelectorAll('input[name=svc]:checked'),function(x){return x.value}).join(', ')||'Not sure yet';
+var svcs=[].map.call(f.querySelectorAll('input[name=svc]:checked'),function(x){var t=x.nextElementSibling;return (t&&t.textContent.trim())||x.value}).join(', ')||'Not sure yet';
 if(f.elements.hp&&f.elements.hp.value)return;
 var d={name:v('name'),email:v('email'),company:v('company'),site:v('site'),services:svcs,budget:v('budget'),timeline:v('timeline'),desc:v('desc'),src:'developers.haritt.com/contact',status:'new'};
 var b=f.querySelector('button[type=submit]'),bh=b.innerHTML,er=document.getElementById('enqErr');b.disabled=true;b.textContent='Sending…';er.style.display='none';
