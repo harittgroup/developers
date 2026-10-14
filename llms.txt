@@ -2,6 +2,8 @@
 
 > Haritt Developers is the digital services brand of Haritt Group (India). It helps businesses build and improve their digital presence with website and software development, branding, digital marketing, lead generation, AI and automation, e-commerce and technology consulting. Contact: developers@haritt.com
 
+The name is spelled Haritt, with two Ts. People sometimes type Harit Developers; it is the same company.
+
 - Website: https://developers.haritt.com/
 - [Services](https://developers.haritt.com/services/)
 - [Our approach](https://developers.haritt.com/approach/): Discover, Position, Build, Launch, Attract, Convert, Improve
