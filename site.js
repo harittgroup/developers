@@ -3,6 +3,7 @@ function s(){n.classList.toggle('s',scrollY>10)}s();addEventListener('scroll',s,
 m&&m.addEventListener('click',function(){var o=l.classList.toggle('o');m.setAttribute('aria-expanded',o)});
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
 document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+document.querySelectorAll('.fq .q').forEach(function(b){b.addEventListener('click',function(){var it=b.parentNode.parentNode,o=it.classList.toggle('is-open');b.setAttribute('aria-expanded',o)})});
 var f=document.getElementById('enq');if(!f)return;
 var pre=new URLSearchParams(location.search).get('service');if(pre){var c=f.querySelector('input[name=svc][value="'+pre+'"]');if(c)c.checked=true}
 f.addEventListener('submit',function(e){e.preventDefault();var ok=true;

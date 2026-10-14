@@ -9,5 +9,6 @@ The name is spelled Haritt, with two Ts. People sometimes type Harit Developers;
 - [Our approach](https://developers.haritt.com/approach/): Discover, Position, Build, Launch, Attract, Convert, Improve
 - [Work](https://developers.haritt.com/work/): live products including HV World and haritt.com
 - [About](https://developers.haritt.com/about/)
+- [FAQ](https://developers.haritt.com/faq/): services, timelines, pricing, support, ownership
 - [Start a project](https://developers.haritt.com/contact/)
 - Parent company: [Haritt Group](https://haritt.com/)
